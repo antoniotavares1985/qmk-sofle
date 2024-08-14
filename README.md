@@ -70,3 +70,10 @@ When flashing a split board, each half has it's own microcontroller so you will 
 - [VIA setup](https://youtu.be/7d5yzBOup9U?si=1MO5OTbQLLwgUlAW)
 - [Vial setup](https://youtu.be/O8pdUPqPG3k?si=IrUdmYJw8IY3q91S)
 - [Easy to digest visual guide](https://youtu.be/AA8fw2MbpYg?si=Xdqg4gY-U7xlSWjz)
+
+## Using Luna keyboard pet from [HellSingCoder](https://github.com/HellSingCoder)
+
+![68747470733a2f2f7777772e73696d6f6e6570656c6c656772696e6f2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032312f30352f6c756e612e6a7067](https://github.com/user-attachments/assets/2c79b4fe-d856-4732-987d-9428184fb997)
+
+
+- [LUNA Keyboard Pet](https://github.com/HellSingCoder/qmk_firmware/tree/master/keyboards/sofle/keymaps/helltm) 
