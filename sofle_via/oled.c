@@ -140,20 +140,12 @@ static void render_luna(int LUNA_X, int LUNA_Y) {
 
 static void print_logo_narrow(void) {
 
-    oled_write_raw("BOB", false);
+    oled_write(" BOB", false);
 
     /* wpm counter */
-    uint8_t n = get_current_wpm();
-    char    wpm_str[4];
-    oled_set_cursor(0, 14);
-    wpm_str[3] = '\0';
-    wpm_str[2] = '0' + n % 10;
-    wpm_str[1] = '0' + (n /= 10) % 10;
-    wpm_str[0] = '0' + n / 10;
-    oled_write(wpm_str, false);
-
-    oled_set_cursor(0, 15);
-    oled_write(" wpm", false);
+    oled_set_cursor(0,13);
+    oled_write_P(PSTR("WPM: "), false);
+    oled_write(get_u8_str(get_current_wpm(), ' '), false);
 }
 
 /* KEYBOARD PET END */
